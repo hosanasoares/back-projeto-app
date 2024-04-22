@@ -1,0 +1,33 @@
+{
+  "name": "back-projeto-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "API do app vamos merendar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "Hosana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.20.2",
+    "cookie": "^0.5.0",
+    "cookie-parse": "^0.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "mongose": "^0.0.2-security",
+    "moongose": "^1.0.0",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.1",
+    "vercel": "^29.4.0"
+  }
+}
